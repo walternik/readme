@@ -25,7 +25,7 @@ Ejemplo: Valida si el Usuario indicado por su id posee el permiso indicado sobre
 
     http://localhost:8000/api/validateUser?recurso=ALTA_USUARIO&id_usuario=1&id_permiso=1
 
-Los campos `id_usuario`, `id_permiso` y `recurso` son requeridos.
+Los campos `id_usuario`, `id_permiso` y `recurso` son requeridos.<br>
 El servicio resuelve la herencia de permisos según su relación con las otras entidades: Roles, Grupos y Organigrama, sumando los permisos de estas entidades a los que ya posee el Usuario.
 
 
