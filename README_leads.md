@@ -156,4 +156,3 @@ Ejemplo: Se busca la cadena *Servicios* dentro de la tabla asociada al Modelo de
 Los dos parámetros `search` y `arrModelForSearch[]` son requeridos.<br>
 Por defecto busca en los campos `nombre, telefono, email, nro_doc`. Pero también se pueden agregar otros campos en el controlador Search.
 
-
